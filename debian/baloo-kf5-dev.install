@@ -1,0 +1,5 @@
+usr/include/
+usr/lib/*/*.so
+usr/lib/*/cmake/*
+usr/lib/*/pkgconfig/Baloo.pc
+usr/share/dbus-1/interfaces/

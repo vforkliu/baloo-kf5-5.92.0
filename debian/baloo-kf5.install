@@ -1,0 +1,10 @@
+#!/usr/bin/dh-exec
+[linux-any] etc/xdg/autostart/baloo_file.desktop
+[linux-any] usr/bin/baloo*
+usr/lib/systemd/user/kde-baloo.service
+usr/lib/*/qt5
+usr/lib/*/libexec/baloo_file
+usr/lib/*/libexec/baloo_file_extractor
+usr/share/locale/
+usr/share/qlogging-categories5/baloo.categories
+usr/share/qlogging-categories5/baloo.renamecategories

@@ -1,0 +1,4 @@
+# this is a private library
+libkf5balooengine5: lacks-unversioned-link-to-shared-library
+# this is a private library
+libkf5balooengine5: no-symbols-control-file

@@ -1,0 +1,1071 @@
+baloo-kf5 (5.92.0-0ubuntu1) jammy; urgency=medium
+
+  * New upstream release (5.92.0)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 16 Mar 2022 16:24:53 +0000
+
+baloo-kf5 (5.91.0-0ubuntu1) jammy; urgency=medium
+
+  * New upstream release (5.91.0)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 14 Feb 2022 17:06:19 +0000
+
+baloo-kf5 (5.90.0-0ubuntu1) jammy; urgency=medium
+
+  * New upstream release (5.90.0)
+
+ -- Rik Mills <rikmills@kde.org>  Thu, 06 Jan 2022 16:44:28 +0000
+
+baloo-kf5 (5.89.0-0ubuntu1) jammy; urgency=medium
+
+  * New upstream release (5.89.0)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Dec 2021 15:14:05 +0000
+
+baloo-kf5 (5.88.0-1ubuntu1) jammy; urgency=medium
+
+  * Add Kubuntu Vcs fields.
+
+ -- Rik Mills <rikmills@kde.org>  Sun, 28 Nov 2021 18:09:01 +0000
+
+baloo-kf5 (5.88.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.87.0).
+  * New upstream release (5.88.0).
+  * Force-bump frameworks internal b-d to 5.88.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Nov 2021 06:07:37 +0900
+
+baloo-kf5 (5.86.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.86.0).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 13 Sep 2021 10:48:08 +0900
+
+baloo-kf5 (5.85.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 28 Aug 2021 23:42:44 +0900
+
+baloo-kf5 (5.85.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.85.0).
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 15 Aug 2021 23:59:45 +0900
+
+baloo-kf5 (5.83.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 11:52:58 +0900
+
+baloo-kf5 (5.83.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.83.0).
+  * Update list of installed files.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 13 Jun 2021 12:11:48 +0900
+
+baloo-kf5 (5.82.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.82.0).
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Update list of installed files.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 09 May 2021 10:06:00 +0900
+
+baloo-kf5 (5.81.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.81.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 12 Apr 2021 10:18:16 +0900
+
+baloo-kf5 (5.80.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.80.0)
+  * Bump inter-frameworks dependencies.
+  * Update symbols.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 15 Mar 2021 15:10:31 +0900
+
+baloo-kf5 (5.79.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Remove graphviz from build depends.
+  * New upstream release (5.79.0).
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 16 Feb 2021 06:45:25 +0900
+
+baloo-kf5 (5.78.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 17 Jan 2021 12:02:17 +0900
+
+baloo-kf5 (5.78.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.78.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 13 Jan 2021 10:32:40 +0900
+
+baloo-kf5 (5.77.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 10:33:32 +0900
+
+baloo-kf5 (5.77.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (5.77.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Update maintainer to Debian Qt/KDE Maintainers.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 18 Dec 2020 10:03:51 +0900
+
+baloo-kf5 (5.74.0-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 19 Oct 2020 23:18:22 +0200
+
+baloo-kf5 (5.74.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (5.74.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add renamecategories file to baloo-kf5.
+  * Update Homepage link to point to new invent.kde.org
+  * Update repository related entries to metadata file.
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Add Bug-* entries to metadata file.
+  * Update copyright for 5.74.
+  * Update lintian-overrides.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 27 Sep 2020 17:46:16 +0200
+
+baloo-kf5 (5.70.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add the missing libkf5config-dev dependency in baloo-kf5-dev, as some
+    headers of baloo-kf5-dev include headers from libkf5config-dev.
+  * Manually edit /usr/include/KF5/Baloo/baloo/baloosettings.h to drop the
+    fileexcludefilters.h include, as it is a private (and not installed) header.
+  * Explicitly add the gettext build dependency.
+  * Remove the dh_makeshlibs override, as -V is the default behaviour in
+    debhelper compatibility >= 12.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 04 Jun 2020 10:41:19 +0200
+
+baloo-kf5 (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * Update symbols file from the logs of buildds.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 13.
+  * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
+  * Wrap long lines in changelog entries: 5.22.0-1.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:58:06 +0200
+
+baloo-kf5 (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump compat level to 12.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
+  * Enable hardening all.
+  * Remove breaks/replaces on l10n packages, as the move is older than
+    Debian stable.
+  * Delete not needed Breaks/Confilcts.
+  * Update patch to disable indexing by default.
+  * Remove not shipped icon from baloo-kf5.
+  * Cleanup copyright file.
+  * Remove not needed injection of linker flags.
+  * Cleanup copyright file.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:57:06 +0200
+
+baloo-kf5 (5.62.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.4.0, no changes required.
+  * Remove unused ${shlibs:Depends} substvar for baloo-kf5-dev.
+  * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
+    are not run at build time anyway.
+  * Drop the 'testsuite' autopkgtest, as it does not test the installed
+    packages
+    - drop patch disable_failing_test, no more needed now
+  * Drop the migration from baloo-kf5-dbg, no more needed after two Debian
+    stable releases.
+  * Merge baloo-kf5.install, and baloo-kf5.install.kfreebsd in a single file,
+    and use dh-exec to limit the Linux-only files
+    - add the dh-exec build dependency
+  * Drop the old breaks/replaces in libkf5baloo5, and libkf5balooengine5, as
+    those packages are long gone (before oldstable).
+  * Remove trailing whitespace in changelog.
+  * Remove the unused BINARY_VERSION_NO_EPOCH variable in rules.
+  * Drop patch fix-822499.patch, fixed upstream since baloo 5.19.0.
+  * Improve shlibs handling of the private libkf5balooengine library:
+    - generate upstream-version-strict shlibs, so the other packages require
+      current versions of it
+    - add lintian overrides to the "issues" that are not really issues
+  * Add Build-Depends-Package to the symbols file of libkf5baloo5.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 22 Sep 2019 08:02:14 +0200
+
+baloo-kf5 (5.62.0-1) unstable; urgency=medium
+
+  * Update reprotest args variable
+  * New upstream release (5.62.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Sep 2019 10:12:48 -0700
+
+baloo-kf5 (5.61.0-1) experimental; urgency=medium
+
+  [ Scarlett Moore ]
+  * Build-Depend on qttools5-dev to fix a cross build failure
+    (see #915122 for more info) (Closes: 933083).
+
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+  * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Add missing version to maintscript
+  * Ignore reprotest build path variations
+  * Update symbols file
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * moved qdebug files
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:04 +0100
+
+baloo-kf5 (5.54.0-1) unstable; urgency=medium
+
+  * New upstream release (5.52.0).
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches.
+  * New upstream release (5.53.0).
+  * Update build-deps and deps with the info from cmake
+  * Rediff patches
+  * New upstream release (5.54.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jan 2019 19:26:13 -0300
+
+baloo-kf5 (5.51.0-1) unstable; urgency=medium
+
+  * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.51.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Nov 2018 17:16:16 +0100
+
+baloo-kf5 (5.49.0-1) unstable; urgency=medium
+
+  * New upstream release (5.48.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:17:55 +0200
+
+baloo-kf5 (5.47.0-1) unstable; urgency=medium
+
+  * New upstream release (5.47.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:07:46 +0200
+
+baloo-kf5 (5.46.0-1) unstable; urgency=medium
+
+  * New upstream release (5.46.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 May 2018 22:14:14 +0200
+
+baloo-kf5 (5.45.0-1) unstable; urgency=medium
+
+  * New upstream release (5.45.0).
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:09:51 +0200
+
+baloo-kf5 (5.44.0-1) sid; urgency=medium
+
+  * New upstream release (5.44.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:40:12 +0100
+
+baloo-kf5 (5.43.0-1) experimental; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.43.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:42:53 +0100
+
+baloo-kf5 (5.42.0-2) sid; urgency=medium
+
+  * New revision
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:28:22 +0100
+
+baloo-kf5 (5.42.0-1) experimental; urgency=medium
+
+  * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Update build-deps and deps with the info from cmake
+  * Update install files
+  * Bump Standards-Version to 4.1.3.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Feb 2018 12:04:22 +0100
+
+baloo-kf5 (5.41.0-1) experimental; urgency=medium
+
+  * New upstream release (5.38.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.41.0).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Drop transitional package baloo.
+    Thanks to Holger Levsen for checking and reporting (Closes: 878226)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:41:54 -0300
+
+baloo-kf5 (5.37.0-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:57:22 +0200
+
+baloo-kf5 (5.37.0-1) experimental; urgency=medium
+
+  * New upstream release (5.37.0).
+  * Update build-deps and deps with the info from cmake
+  * Add a libkf5baloo-doc package for the qch files
+  * Bump Standards-Version to 4.0.1.
+  * Set Priority to optional
+  * Set section for the doc package
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:43:31 +0200
+
+baloo-kf5 (5.36.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Drop upstream patches
+  * watch: Use https uris
+  * New upstream release (5.36.0).
+  * Update build-deps and deps with the info from cmake
+
+  [ Raymond Wooninck ]
+  * Add gpg signature
+
+  [ Harald Sitter ]
+  * acc c++11. now used more liberally
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:23 +0200
+
+baloo-kf5 (5.28.0-2) unstable; urgency=medium
+
+  * Add new patch: Disable-the-file-indexer-by-default.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Dec 2016 14:31:44 +0100
+
+baloo-kf5 (5.28.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:06:03 +0100
+
+baloo-kf5 (5.27.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Drop obsolete conffile.
+    Thanks to shirish for the report (Closes: 839917)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:05:54 +0200
+
+baloo-kf5 (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Avoid using dbus-launch to run the tests (Closes: #835837)
+    Thanks to Simon McVittie for the report
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:01:44 +0200
+
+baloo-kf5 (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:48:47 +0200
+
+baloo-kf5 (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 17:51:59 +0200
+
+baloo-kf5 (5.22.0-2) unstable; urgency=medium
+
+  * Add new patch: build_dbus_unconditionally.patch
+  * Add a kfreebsd specific install file
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jun 2016 19:15:57 +0200
+
+baloo-kf5 (5.22.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Drop qt5-qmltooling-plugins build dependency
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+  * Acknowledge nmu 5.16.0-1.1. Thanks to Tobias Frost (Closes: #822499)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:23:53 +0200
+
+baloo-kf5 (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+  * (Experimental specific) Add qt5-qmltooling-plugins as a build-dep,
+    missing dependency of qtdeclarative5-dev
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:40 +0100
+
+baloo-kf5 (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:40 +0100
+
+baloo-kf5 (5.16.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS: error: 'pow' is not a member of 'std'"
+    changed and why> (Closes: #822499)
+
+ -- Tobias Frost <tobi@debian.org>  Tue, 26 Apr 2016 14:28:01 +0200
+
+baloo-kf5 (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:56 +0100
+
+baloo-kf5 (5.15.0+-1) unstable; urgency=medium
+
+  * Respin of the fixed upstream release 5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 13 Oct 2015 20:25:18 +0200
+
+baloo-kf5 (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+  * Drop upstream applied patches:
+    Add_error_checking_in_various_bits_so_that_Baloo_doesnt_crash.diff
+    Fail_Baloo_File_load_if_the_Database_is_not_open.diff
+  * Update install files.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 14:07:28 +0200
+
+baloo-kf5 (5.14.0-2) unstable; urgency=medium
+
+  * Cherry-pick upstream commits to fix crashes. (Closes: #800061)
+    - Add_error_checking_in_various_bits_so_that_Baloo_doesnt_crash.diff
+    - Fail_Baloo_File_load_if_the_Database_is_not_open.diff
+
+ -- Felix Geyer <fgeyer@debian.org>  Fri, 02 Oct 2015 23:50:56 +0200
+
+baloo-kf5 (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:50:03 +0200
+
+baloo-kf5 (5.13.0-2) unstable; urgency=medium
+
+  * Move auto test to autopkgtests.
+  * Release to unstable.
+  * Add missing Breaks/Replaces.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 09:19:34 +0200
+
+baloo-kf5 (5.13.0-1) experimental; urgency=medium
+
+  * New upstream release (5.13.0).
+  * New patch: disable_failing_test
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 23:58:56 +0200
+
+baloo-kf5 (5.13.0-0ubuntu2) wily; urgency=medium
+
+  * Fix libraries in acc input file to hopefully make autopkgtests pass again.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 13 Aug 2015 12:22:25 +0100
+
+baloo-kf5 (5.13.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+  * Add build-dep on liblmdb-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 12:46:04 +0200
+
+baloo-kf5 (5.9.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * wrap-and-sort.
+  * Fix version
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 02 Jul 2015 12:34:31 -0700
+
+baloo-kf5 (5.9.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Change baloo transitional package from arch any to arch all
+  * Baloo-kf5 Breaks vice Conflicts baloo
+
+ -- Scott Kitterman <scott@kitterman.com>  Tue, 14 Jul 2015 11:37:49 -0400
+
+baloo-kf5 (5.9.2-2) unstable; urgency=medium
+
+  * Add the missing Breaks/Replaces. (Closes: #789166)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:50 +0200
+
+baloo-kf5 (5.9.2-0ubuntu2) wily; urgency=medium
+
+  * Update symbols files: add a couple of optional symbols after building with
+    GCC 5
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 22 Jul 2015 21:50:57 +0200
+
+baloo-kf5 (5.9.2-0ubuntu1) wily; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:25:29 +0000
+
+baloo-kf5 (5.9.2-1) unstable; urgency=medium
+
+  * New upstream release (5.9.2).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 09:23:52 +0200
+
+baloo-kf5 (5.9.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+  [ Harald Sitter ]
+  * Fix baloo -> baloo-kf5 transitional dependency requirement to >= rather
+    than as = cannot be met by the source:Upstream-Version substvar
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 18:12:09 +0200
+
+baloo-kf5 (5.6.2-0ubuntu4) vivid; urgency=medium
+
+  * Fix baloo-kf5 replaces/conflicts baloo versions
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Mar 2015 15:42:24 +0100
+
+baloo-kf5 (5.6.2-0ubuntu3) vivid; urgency=medium
+
+  * Fix baloo to depend on baloo-kf5 without epoch
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Mar 2015 23:37:42 +0100
+
+baloo-kf5 (5.6.2-0ubuntu2) vivid; urgency=medium
+
+  * Add transitional baloo package with 4: epoch
+  * Remove baloo provides
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Mar 2015 21:27:57 +0100
+
+baloo-kf5 (5.6.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Release to Archive
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 19 Mar 2015 20:54:03 -0700
+
+baloo-kf5 (5.9.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.9.0).
+  * New upstream release (5.9.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:54:43 +0200
+
+baloo-kf5 (5.6.2-1) experimental; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Bump version depends.
+  * Update renamed dependency kfilemetadata-dev
+  * Fix version.
+
+  [ Maximiliano Curia ]
+  * Prepare Debian release. (5.6.1-1)
+  * New upstream release (5.6.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:29 +0100
+
+baloo-kf5 (5.6.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Bump kfilemetadata version so hopefully armhf will find it.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:52:31 -0800
+
+baloo-kf5 (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update install files.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Add myself as Uploader.
+  * Update copyright information.
+  * Update watch file.
+  * Add basic autopkgtests support.
+  * Add missing dev dependency (thanks to acc headers check)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 18:39:29 +0100
+
+baloo-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 26 Jan 2015 13:59:33 +0100
+
+baloo-kf5 (5.5.95-0ubuntu1) vivid; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:49:10 +0100
+
+baloo-kf5 (5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:37:40 +0100
+
+baloo-kf5 (5.1.0.1-0ubuntu4) vivid; urgency=medium
+
+  [ Harald Sitter ]
+  * Lintian override missing manpage warnings (we don't care)
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 06 Nov 2014 15:24:27 +0100
+
+baloo-kf5 (5.0.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Bump version depends.
+  * Update renamed dependency kfilemetadata-dev
+  * Fix version.
+
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+  [ Harald Sitter ]
+  * Wrap and sort
+  * Move to new pkg-kde-tools
+  * baloo-kf5-dev depends on libkf5filemetadata1-dev (as seen in its
+    CMakeConfig)
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Sep 2014 06:38:18 -0700
+
+baloo-kf5 (5.0.0b-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Remove epoch that had slipped in
+  * Initial upload to Ubuntu
+
+  [ Scarlett Clark ]
+  * New upstream tarball
+  * New upstream tarball include locale files
+  * Add Replaces: for libkf5baloocore, libkf5baloofiles libkf5balooxapian
+    to resolve install conflict.
+  * Update watch to http://download.kde.org
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries install paths so a soname change won't go
+    unnoticed.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 21:13:07 +0200
+
+baloo-kf5 (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+  * Upstream renamed tar to baloo
+  * Allow for co-installability with baloo (kdelibs4)
+   - Provide baloo virtual package
+   - rename souce to baloo-kf5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:33:04 +0200
+
+baloo5 (4:4.97.0~git20140616-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Initial release.
+
+  [ Scarlett Clark ]
+  * Rename baloo-kf5 to resolve kde4 conflict
+  * added missing depends
+  * split out libs and data files
+  * added install files
+  * wrap-and-sort
+  * add missing depend
+  * Add baloo-kf5 depend to -dev
+  * Grab git snapshot to resolve cmake patch issue.
+  * break/replace old version
+  * more break replace
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 17 Jun 2014 09:01:57 -0700
+
+baloo (4:4.14.2-2) unstable; urgency=medium
+
+  * Update symbols files. (Closes: #777792)
+  * Drop transitional package present in the kf5 version.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Aug 2015 11:54:39 +0200
+
+baloo (4:4.14.2-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Depend on libqt4-sql-sqlite (Closes: #781896, #765084)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Tue, 21 Apr 2015 17:23:58 +0200
+
+baloo (4:4.14.2-1) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Make baloo-dev depend on libkfilemetadata-dev, as it uses its headers.
+    (Closes: #762240)
+  * Small improvements to the descriptions. (Closes: #757626, #760023)
+
+  [ Maximiliano Curia ]
+  * New upstream release (4.14.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 20 Oct 2014 18:54:00 +0200
+
+baloo (4:4.14.1-1) unstable; urgency=medium
+
+  * New upstream release (4.14.1).
+  * Merge dh_acc test into testsuite.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 17 Sep 2014 09:44:24 +0200
+
+baloo (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build dependencies.
+  * Update symbols files with buildds logs.
+  * Update symbols file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 23 Aug 2014 18:18:14 +0200
+
+baloo (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Add a transitional package for baloo > baloo4 as Provides don't take care
+    of upgrades
+  * Delete obsolete baloo.install
+
+  [ Rohan Garg ]
+  * Make baloo-utils a dep of baloo4
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 12:26:11 +0200
+
+baloo (4:4.13.97-0ubuntu3) utopic; urgency=medium
+
+  * Add replaces/breaks for file moved to baloo-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 Aug 2014 19:59:34 +0200
+
+baloo (4:4.13.97-0ubuntu2) utopic; urgency=medium
+
+  * Bump replaces version of baloo for new updates
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 Aug 2014 19:45:17 +0200
+
+baloo (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release RC
+
+  [ Jonathan Riddell ]
+  * Update symbols
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:02:52 +0200
+
+baloo (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+  * Fix libalooqueryparser install file
+
+  [ Philip Muškovac ]
+  * Remove empty arch= selector in libbaloopim4.symbols and
+    libbalooxapian4.symbols
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 25 Jul 2014 06:18:28 -0700
+
+baloo (4:4.13.90-0ubuntu3) utopic; urgency=medium
+
+  * Add missing build-dep on libx11-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 19 Jul 2014 21:40:48 +0200
+
+baloo (4:4.13.90-0ubuntu2) utopic; urgency=medium
+
+  * Add missing .install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 19 Jul 2014 21:40:48 +0200
+
+baloo (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+  * Added new library libbalooqueryparser
+  * Patched symbols with batchpatch
+  * Add new library to -dev as depend
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 18 Jul 2014 13:54:56 -0700
+
+baloo (4:4.13.3-1) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Backport upstream commits 01f3fff52d63302e6970a088710ec6b692b1b470,
+    b538865e6069a61c8cf467622f3dccef2bac115e and
+    07278894f3a00a3c4ca5ce7d62721c0edfddfb69 to fix build on glibc-based OSes
+    different than Linux; patches
+    upstream_xattr-fix-fallback-in-no-xattr-OSes.patch,
+    upstream_xattr-use-the-linux-xattr-impl-on-any-glibc-based-OS.patch, and
+    upstream_xattr-do-not-use-on-glibc-if-not-implemented.patch.
+  * Switch the libboost1.55-dev build dependency to libboost-dev.
+
+  [ Maximiliano Curia ]
+  * New upstream release.
+  * Remove upstream applied patch: upstream_xattr-do-not-use-on-glibc-
+    if-not-implemented.patch
+  * Remove upstream applied patch: upstream_xattr-fix-fallback-in-no-
+    xattr-OSes.patch
+  * Remove upstream applied patch: upstream_xattr-use-the-linux-xattr-
+    impl-on-any-glibc-based-OS.patch
+  * Update symbols file.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 30 Jul 2014 00:17:47 +0200
+
+baloo (4:4.13.2-0ubuntu3) utopic; urgency=medium
+
+  * Allow for co-installability with baloo-kf5
+    - create baloo-utils for kdelibs4 parts we want to keep installed
+    - rename to baloo4 and provide a common baloo virtual package
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 09 Jul 2014 17:24:47 +0200
+
+baloo (4:4.13.2-0ubuntu2) utopic; urgency=medium
+
+  * Remove explicit baloo dependency from library .symbol files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Jun 2014 16:57:37 +0200
+
+baloo (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+  * Remove upstream_catch_more_exceptions_emailsearchstore.patch
+    fixed upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:38:20 +0100
+
+baloo (4:4.13.0-0ubuntu5) utopic; urgency=medium
+
+  * Merge with Debian, remaining changes:
+   - still on 4.13.0
+  * Add conflicts on kf5 baloo packages
+  * Build-Conflicts: libkfilemetadata5-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 29 May 2014 16:08:47 +0100
+
+baloo (4:4.13.0-0ubuntu4) utopic; urgency=high
+
+  * Rebuild against boost1.55
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 21:55:11 +0100
+
+baloo (4:4.13.1-1) experimental; urgency=medium
+
+  * Initial release, based on the kubuntu package.
+  * Update build dependencies.
+  * Update symbols files.
+  * New patch: disable_tests_depending_on_revdep
+  * Add dh-acc files.
+  * Add dbus interface file to the -dev package.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 13:25:45 +0200
+
+baloo (4:4.13.0-0ubuntu3) utopic; urgency=medium
+
+  * Remove explicit baloo dependency from library .symbol files
+  * Add conflicts on conflicting KF5 baloo packages
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 29 May 2014 15:52:39 +0100
+
+baloo (4:4.13.0-0ubuntu2) trusty; urgency=medium
+
+  * Add upstream_catch_more_exceptions_emailsearchstore.patch from upstream
+    expanding the exception catching to prevent krunner crashes on random
+    searches
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 15 Apr 2014 11:45:50 +0200
+
+baloo (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 21:32:59 +0100
+
+baloo (4:4.12.97-0ubuntu4) trusty; urgency=medium
+
+  * Yet more upstream commit imports. Adding patches 50 to 56 in upstream_git/
+  * Explicitly do not apply upstream_git/0050-Prepare-4.13.0.patch as it
+    causes an implicit dependency bump which we cannot fullfill at this time.
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Wed, 09 Apr 2014 16:31:31 +0200
+
+baloo (4:4.12.97-0ubuntu3) trusty; urgency=medium
+
+  * Add upstream_git/0049-XapianDatabase-Catch-more-exceptions.patch
+    fixing a crash when changing the file rating in dolphin.
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 08 Apr 2014 13:10:09 +0200
+
+baloo (4:4.12.97-0ubuntu2) trusty; urgency=medium
+
+  * Blanket import fixes between 4.12.97 and current git KDE/4.13 in
+    debian/patches/upstream_git/
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Mon, 07 Apr 2014 12:35:02 +0200
+
+baloo (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:04:27 +0200
+
+baloo (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  [ Rohan Garg ]
+  * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Add new symbols
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 11:51:35 +0100
+
+baloo (4:4.12.90-0ubuntu1) trusty; urgency=low
+
+  [ Jonathan Riddell ]
+  * Initial release
+  * Don't depend on baloo, kde-runtime, kdepim-runtime to stop
+    circular deps
+  * baloo-dev doesn't depend on baloo to stop circular deps
+
+  [ Scarlett Clark ]
+  * Fix copyright
+  * Create and fix symbols.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:30:39 +0000

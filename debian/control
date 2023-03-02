@@ -1,0 +1,91 @@
+Source: baloo-kf5
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               dh-exec,
+               doxygen,
+               extra-cmake-modules (>= 5.92.0~),
+               gettext,
+               libkf5config-dev (>= 5.92.0~),
+               libkf5coreaddons-dev (>= 5.92.0~),
+               libkf5crash-dev (>= 5.92.0~),
+               libkf5dbusaddons-dev (>= 5.92.0~),
+               libkf5filemetadata-dev (>= 5.92.0~),
+               libkf5i18n-dev (>= 5.92.0~),
+               libkf5idletime-dev (>= 5.92.0~),
+               libkf5kio-dev (>= 5.92.0~),
+               libkf5solid-dev (>= 5.92.0~),
+               liblmdb-dev,
+               libqt5sql5-sqlite,
+               libxapian-dev,
+               pkg-kde-tools (>= 0.15.18~),
+               qtbase5-dev (>= 5.15.2~),
+               qtdeclarative5-dev (>= 5.15.2~),
+               qttools5-dev,
+               qttools5-dev-tools (>= 5.4),
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/frameworks/baloo
+Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/baloo
+Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/baloo
+Rules-Requires-Root: no
+
+Package: baloo-kf5
+Section: utils
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: framework for searching and managing metadata
+ A framework for searching and managing metadata in KDE Software.
+ .
+ Baloo is part of the KDE Plasma desktop.
+
+Package: baloo-kf5-dev
+Section: devel
+Architecture: any
+Depends: baloo-kf5 (= ${binary:Version}),
+         libkf5baloo5 (= ${binary:Version}),
+         libkf5balooengine5 (= ${binary:Version}),
+         libkf5config-dev (>= 5.92.0~),
+         libkf5coreaddons-dev (>= 5.92.0~),
+         libkf5filemetadata-dev (>= 5.92.0~),
+         ${misc:Depends},
+Recommends: libkf5baloo-doc (= ${source:Version})
+Description: framework for searching and managing metadata devel files
+ A framework for searching and managing metadata in KDE Software.
+ .
+ Baloo is part of the KDE Plasma desktop.
+ .
+ This package contains the development files.
+
+Package: libkf5baloo-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: framework for searching and managing metadata core lib (documentation)
+ A framework for searching and managing metadata in KDE Software.
+ .
+ Baloo is part of the KDE Plasma desktop.
+ .
+ This package contains the qch documentation files.
+Section: doc
+
+Package: libkf5baloo5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: framework for searching and managing metadata core lib.
+ A framework for searching and managing metadata in KDE Software.
+ .
+ Baloo is part of the KDE Plasma desktop.
+
+Package: libkf5balooengine5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: framework for searching and managing metadata plugins
+ A framework for searching and managing metadata in KDE Software.
+ .
+ Baloo is part of the KDE Plasma desktop.

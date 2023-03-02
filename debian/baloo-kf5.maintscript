@@ -1,0 +1,2 @@
+rm_conffile /etc/dbus-1/system.d/org.kde.baloo.filewatch.conf 5.26.0-2~
+rm_conffile /etc/xdg/baloo.categories 5.61.0-1~~

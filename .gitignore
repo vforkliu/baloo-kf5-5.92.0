@@ -1,0 +1,45 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+/build*/
+CMakeLists.txt.user*
+*.unc-backup*
+
+# QtCreator
+
+*CMakeLists.txt.user
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+
+
+*.kdev4
+.cmake/
+/.clang-format
+/compile_commands.json
+.clangd
+.idea
+/cmake-build*
