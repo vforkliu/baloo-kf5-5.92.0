@@ -160,26 +160,31 @@ void Query::setIncludeFolder(const QString& folder)
 
 ResultIterator Query::exec()
 {
+    qCInfo(BALOO) << "[Query::Query::exec]enter ...";
     if (!d->m_searchString.isEmpty()) {
         if (d->m_term.isValid()) {
             qCDebug(BALOO) << "Term already set";
         }
         AdvancedQueryParser parser;
         d->m_term = parser.parse(d->m_searchString);
+        qCInfo(BALOO) << "m_term:" << d->m_term;
     }
 
     Term term(d->m_term);
     if (!d->m_types.isEmpty()) {
+        qCInfo(BALOO) << "m_types:" << d->m_types;
         for (const QString& type : std::as_const(d->m_types)) {
             term = term && Term(QStringLiteral("type"), type);
         }
     }
 
     if (!d->m_includeFolder.isEmpty()) {
+        qCInfo(BALOO) << "includeFolder:" << d->m_includeFolder;
         term = term && Term(QStringLiteral("includefolder"), d->m_includeFolder);
     }
 
     if (d->m_yearFilter || d->m_monthFilter || d->m_dayFilter) {
+        qCInfo(BALOO) << "m_yearFilter:" << d->m_yearFilter << ",m_monthFilter:" << d->m_monthFilter << ",m_dayFilter:" << d->m_dayFilter;
         QByteArray ba = QByteArray::number(d->m_yearFilter);
         if (d->m_monthFilter < 10) {
             ba += '0';
@@ -194,6 +199,7 @@ ResultIterator Query::exec()
     }
 
     SearchStore searchStore;
+    qCInfo(BALOO) << "m_offset:" << d->m_offset;
     auto results = searchStore.exec(term, d->m_offset, d->m_limit, d->m_sortingOption == SortAuto);
     return ResultIterator(std::move(results));
 }
@@ -338,6 +344,7 @@ static QString jsonQueryFromUrl(const QUrl &url)
 
 Query Query::fromSearchUrl(const QUrl& url)
 {
+    qCInfo(BALOO) << "[Query::fromSearchUrl]url:" << url;
     if (url.scheme() != QLatin1String("baloosearch")) {
         return Query();
     }
@@ -346,11 +353,13 @@ Query Query::fromSearchUrl(const QUrl& url)
 
     if (urlQuery.hasQueryItem(QStringLiteral("json"))) {
         QString jsonString = urlQuery.queryItemValue(QStringLiteral("json"), QUrl::FullyDecoded);
+        qCInfo(BALOO) << "[Query::fromSearchUrl]json:" << jsonString;
         return Query::fromJSON(jsonString.toUtf8());
     }
 
     if (urlQuery.hasQueryItem(QStringLiteral("query"))) {
         QString queryString = urlQuery.queryItemValue(QStringLiteral("query"), QUrl::FullyDecoded);
+        qCInfo(BALOO) << "[Query::fromSearchUrl]queryString:" << queryString;
         Query q;
         q.setSearchString(queryString);
         return q;
@@ -358,9 +367,11 @@ Query Query::fromSearchUrl(const QUrl& url)
 
     const QString jsonString = jsonQueryFromUrl(url);
     if (!jsonString.isEmpty()) {
+        qCInfo(BALOO) << "[Query::fromSearchUrl]json:" << jsonString;
         return Query::fromJSON(jsonString.toUtf8());
     }
 
+    qCInfo(BALOO) << "[Query::fromSearchUrl] leave.";
     return Query();
 }
 

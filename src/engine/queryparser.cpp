@@ -35,6 +35,7 @@ EngineQuery QueryParser::parseQuery(const QString& text_, const QByteArray& pref
     bool inSingleQuotes = false;
     bool inPhrase = false;
 
+    qInfo() << "[QueryParser::parseQuery]text_:" << text_ << ",prefix:" << prefix;
     QTextBoundaryFinder bf(QTextBoundaryFinder::Word, text);
     for (; bf.position() != -1; bf.toNextBoundary()) {
         int pos = bf.position();
@@ -133,6 +134,7 @@ EngineQuery QueryParser::parseQuery(const QString& text_, const QByteArray& pref
     }
 
     if (queries.size() == 1) {
+        qInfo() << "queries first:" << queries.first();
         return queries.first();
     }
     return EngineQuery(queries, EngineQuery::And);

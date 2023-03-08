@@ -301,10 +301,12 @@ void Transaction::abort()
 
 PostingIterator* Transaction::postingIterator(const EngineQuery& query) const
 {
+    qInfo() << "[Transaction::postingIterator]query:" << query;
     PostingDB postingDb(m_dbis.postingDbi, m_txn);
     PositionDB positionDb(m_dbis.positionDBi, m_txn);
 
     if (query.leaf()) {
+        qInfo() << "[Transaction::postingIterator]query leaf op:" << query.op();
         if (query.op() == EngineQuery::Equal) {
             return postingDb.iter(query.term());
         } else if (query.op() == EngineQuery::StartsWith) {

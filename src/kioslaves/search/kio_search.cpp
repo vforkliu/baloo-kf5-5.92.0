@@ -33,6 +33,7 @@ namespace
 
 KIO::UDSEntry statSearchFolder(const QUrl& url)
 {
+    qInfo() << "[statSearchFolder] url:" << url;
     KIO::UDSEntry uds;
     uds.reserve(9);
 #ifdef Q_OS_WIN
@@ -80,12 +81,14 @@ void SearchProtocol::listDir(const QUrl& url)
     UdsFactory udsf;
 
     while (it.next()) {
+        qInfo() << "[baloosearch::listDir]matched name:" << it.filePath();
         KIO::UDSEntry uds = udsf.createUdsEntry(it.filePath());
         if (uds.count()) {
 	    listEntry(uds);
         }
     }
 
+    // 为什么需要一个这样的entry
     KIO::UDSEntry uds;
     uds.reserve(5);
     uds.fastInsert(KIO::UDSEntry::UDS_NAME, QStringLiteral("."));

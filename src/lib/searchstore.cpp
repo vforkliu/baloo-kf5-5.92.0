@@ -108,6 +108,7 @@ SearchStore::~SearchStore()
 // Return the result with-in [offset, offset + limit)
 ResultList SearchStore::exec(const Term& term, uint offset, int limit, bool sortResults)
 {
+    qCInfo(BALOO) << "[SearchStore::exec]enter ...";
     if (!m_db || !m_db->isOpen()) {
         return ResultList();
     }
@@ -119,6 +120,7 @@ ResultList SearchStore::exec(const Term& term, uint offset, int limit, bool sort
     }
 
     if (sortResults) {
+        qCInfo(BALOO) << "[SearchStore::exec]sortResults ...";
         QVector<std::pair<quint64, quint32>> resultIds;
         while (it->next()) {
             quint64 id = it->docId();
@@ -168,6 +170,7 @@ ResultList SearchStore::exec(const Term& term, uint offset, int limit, bool sort
             const quint64 id = it->docId();
             Q_ASSERT(id > 0);
             Result res{tr.documentUrl(id), id};
+            qCInfo(BALOO) << "filePath:" << res.filePath;
             Q_ASSERT(!res.filePath.isEmpty());
 
             results.emplace_back(res);
@@ -183,12 +186,15 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
 {
     Q_ASSERT(tr);
 
+    qCInfo(BALOO) << "[SearchStore::constructQuery] enter ... term:" << term;
     if (term.operation() == Term::And || term.operation() == Term::Or) {
+        qCInfo(BALOO) << "[SearchStore::constructQuery] Term::And || Term::Or";
         const QList<Term> subTerms = term.subTerms();
         QVector<PostingIterator*> vec;
         vec.reserve(subTerms.size());
 
         for (const Term& t : subTerms) {
+            qCInfo(BALOO) << "subTerm:" << t;
             auto iterator = constructQuery(tr, t);
             // constructQuery returns a nullptr to signal an empty list
             if (iterator) {
@@ -205,13 +211,16 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
         }
 
         if (term.operation() == Term::And) {
+            qCInfo(BALOO) << "[SearchStore::constructQuery] AndPostingIterator ...";
             return new AndPostingIterator(vec);
         } else {
+            qCInfo(BALOO) << "[SearchStore::constructQuery] OrPostingIterator ...";
             return new OrPostingIterator(vec);
         }
     }
 
     if (term.value().isNull()) {
+        qCInfo(BALOO) << "[SearchStore::constructQuery] term is null.";
         return nullptr;
     }
     Q_ASSERT(term.value().isValid());
@@ -220,6 +229,7 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
 
     const QVariant value = term.value();
     const QByteArray property = term.property().toLower().toUtf8();
+    qCInfo(BALOO) << "[SearchStore::constructQuery] property:" << property;
 
     if (property == "type" || property == "kind") {
         EngineQuery q = constructTypeQuery(value.toString());
@@ -227,6 +237,7 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
     }
     else if (property == "includefolder") {
         const QByteArray folder = value.toString().toUtf8();
+        qCInfo(BALOO) << "includefolder:" << folder;
 
         if (folder.isEmpty()) {
             return nullptr;
@@ -241,6 +252,7 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
             return nullptr;
         }
 
+        qCInfo(BALOO) << "folder id:" << id;
         return tr->docUrlIter(id);
     }
     else if (property == "modified" || property == "mtime") {
@@ -283,11 +295,14 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
             return nullptr;
         }
     } else if (property == "tag") {
+        qCInfo(BALOO) << "tag:" << term.comparator();
         if (term.comparator() == Term::Equal) {
+            qCInfo(BALOO) << "tag:Term::Equal";
             const QByteArray prefix = "TAG-";
             EngineQuery q = EngineQuery(prefix + value.toByteArray());
             return tr->postingIterator(q);
         } else if (term.comparator() == Term::Contains) {
+            qCInfo(BALOO) << "tag:Term::Contains";
             const QByteArray prefix = "TA";
             EngineQuery q = constructEqualsQuery(prefix, value.toString());
             return tr->postingIterator(q);
@@ -296,6 +311,7 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
             return nullptr;
         }
     } else if (property == "") {
+        qCInfo(BALOO) << "[SearchStore::constructQuery] content or filename";
         Term cterm(QStringLiteral("content"), term.value(), term.comparator());
         Term fterm(QStringLiteral("filename"), term.value(), term.comparator());
         return constructQuery(tr, Term{cterm, Term::Operation::Or, fterm});
@@ -362,6 +378,7 @@ PostingIterator* SearchStore::constructQuery(Transaction* tr, const Term& term)
 
 EngineQuery SearchStore::constructContainsQuery(const QByteArray& prefix, const QString& value)
 {
+    qCInfo(BALOO) << "[SearchStore::constructContainsQuery] prefix:" << prefix << ",value:" << value;
     QueryParser parser;
     return parser.parseQuery(value, prefix);
 }
